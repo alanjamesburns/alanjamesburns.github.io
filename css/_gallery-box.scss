@@ -1,0 +1,135 @@
+$image-1: "../images/Rectangle1/1.jpg";
+$image-2: "../images/Rectangle2/1.jpg";
+$image-3: "../images/Rectangle3/1.jpg";
+$image-4: "../images/Rectangle4/1.jpg";
+$image-5: "../images/Rectangle5/1.jpg";
+$image-6: "../images/Rectangle6/1.jpg";
+$image-7: "../images/Rectangle7/1.jpg";
+$image-8: "../images/Rectangle8/1.jpg";
+$image-9: "../images/Rectangle9/1.jpg";
+
+
+/* 3x3 Grid Layout */
+.square {
+  float: left;
+  position: relative;
+  width: 30%;;
+  padding-bottom: 15%;
+  /* = width for a 1:1 aspect ratio */
+  margin: 1.66%;
+  background-color: #1E1E1E;
+  overflow: hidden; }
+
+.content {
+  font-size: 18px;
+  position: absolute;
+  height: 90%;
+  /* = 100% - 2*5% padding */
+  width: 90%;
+  /* = 100% - 2*5% padding */
+  padding: 5%; }
+
+
+
+/*  For responsive images as background */
+.bg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* you change this to "contain" if you don't want the images to be cropped */
+  color: #fff; }
+
+.gallery:hover .img1 {
+  background-image: url($image-1); }
+.gallery:hover .img2 {
+  background-image: url($image-2); }
+.gallery:hover .img3 {
+  background-image: url($image-3); }
+.gallery:hover .img4 {
+  background-image: url($image-4); }
+.gallery:hover .img5 {
+  background-image: url($image-5); }
+.gallery:hover .img6 {
+  background-image: url($image-6); }
+.gallery:hover .img7 {
+  background-image: url($image-7); }
+.gallery:hover .img8 {
+  background-image: url($image-8); }
+.gallery:hover .img9 {
+  background-image: url($image-9); }
+
+/*  following just for the demo */
+.square {
+  font-size: 20px;
+  color: #fff;
+  text-align: center; }
+  .square p {
+    margin: 0;
+    padding: 0;
+    text-align: left; }
+
+
+.fade {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out; }
+
+.fade:hover {
+  opacity: 0.5;
+  transition: opacity .55s ease-in-out;
+  -moz-transition: opacity .55s ease-in-out;
+  -webkit-transition: opacity .55s ease-in-out; }
+  .fade:hover h3 {
+    display: block;
+    color: #333;
+    opacity: 1.0;
+    z-index: 10; }
+
+.tiny-gallery {
+  width: 250px;
+  position: absolute;
+  right: 10px;
+  top: 10px; }
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  .tiny-gallery {
+    width: 170px; }
+
+    .gallery:hover .img1 {
+      background-image: url($image-1); }
+    .gallery:hover .img2 {
+      background-image: url($image-2); }
+    .gallery:hover .img3 {
+      background-image: url($image-3); }
+    .gallery:hover .img4 {
+      background-image: url($image-4); }
+    .gallery:hover .img5 {
+      background-image: url($image-5); }
+    .gallery:hover .img6 {
+      background-image: url($image-6); }
+    .gallery:hover .img7 {
+      background-image: url($image-7); }
+    .gallery:hover .img8 {
+      background-image: url($image-8); }
+    .gallery:hover .img9 {
+      background-image: url($image-9); } }
+.side-scroller {
+  height: 90vh; }
+
+@media (min-width: 768px) {
+  #tiny-gallery {
+    float: right; }
+
+  .tiny-gallery {
+    width: 250px; } }
+@media (max-width: 768px) {
+  .tiny-gallery {
+    width: 150px; } }
+@media (min-width: 1000px) {
+  .tiny-gallery {
+    width: 350px; } }
+
+.form-control {
+  border-radius: 0px;
+}

@@ -1,0 +1,208 @@
+@import '_boilerplate';
+@import "_gallery-box";
+
+$break-small: 700px;
+$break-middle: 900px;
+/*
+       Custom CSS compiled from SASS
+*/
+/* ================================================
+General styles
+=================================================*/
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+}
+
+.unstyled-link a {
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  .unstyled-link a:hover {
+    text-decoration: none;
+    color: #999999; }
+
+body, .wrapper {
+  max-width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navigation {
+  font-weight: lighter;
+  padding: 10px 0px 0px 10px;
+  max-width: 100vw;
+  // .title {
+  //   font-weight: bold;
+  // }
+}
+
+.ng-scope {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  max-width: 100vw;
+  margin: auto;
+}
+
+/* ================================================
+Works home page styles
+=================================================*/
+
+.gallery {
+  width: 100vw;
+  height: 55vw;
+  @media screen and (min-width: $break-small) {
+    width: 60vw;
+    height: 33vw;
+  }
+}
+
+.tiny-gallery {
+  max-width: 150px;
+  position: absolute;
+  @media screen and (max-width: $break-small) {
+    max-width: 30vh;
+  }
+}
+
+/* ================================================
+Works pages styles
+=================================================*/
+
+.works-div {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  min-height: 65vh;
+  i {
+    margin-top: 10%;
+    opacity: 0.8;
+    @media screen and (min-width: $break-small) {
+      display: none;
+    }
+  }
+  @media screen and (min-width: $break-small) {
+    padding-left: 30px;
+  }
+  .works-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 95%;
+    h1 {
+      font-size: 16px;
+      width: 400px;
+    }
+  }
+  .works-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    img {
+      width: 100vw;
+      padding: 20px;
+      @media screen and (min-width: $break-middle) {
+        width: 100vh;
+      }
+    }
+    iframe {
+      margin: 20px;
+    }
+  }
+  .tall-image img {
+    width: 50vw;
+    max-width: 400px;
+  }
+}
+
+/* ================================================
+About page styles
+=================================================*/
+.about-div {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  min-height: 65vh;
+  .about-text {
+    max-width: 80%;
+    padding-top: 10vh;
+    @media (max-width: $break-small){
+      padding-top: 10vh;
+    }
+    h1 {
+      font-size: 16px;
+      width: 400px;
+    }
+  }
+  i {
+    margin-top: 10%;
+    opacity: 0.8;
+    @media screen and (min-width: $break-small) {
+      display: none;
+    }
+  }
+}
+
+.about {
+  padding: 70px 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80vw;
+  .about-content {
+    padding: 0px 20px 0px 20px;
+  }
+  @media screen and (max-width: $break-small) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100vw;
+  }
+}
+
+
+/* ================================================
+Footer styles
+=================================================*/
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  font-size: 15px;
+  width: 100%;
+}
+
+/* ================================================
+=============== With love from Gav ================
+=================================================*/

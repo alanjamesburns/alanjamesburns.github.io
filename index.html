@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<!-- define angular app -->
+<html ng-app="alanSiteApp">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- SCROLLS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-horizon.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
+  <!-- SPELLS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<!-- define angular controller -->
+<body ng-controller="mainController">
+
+  <div class="wrapper">
+    <div class="navigation unstyled-link">
+      <p>Alan James Burns</p>
+      <a href="#works">Works</a><br>
+      <a href="#about">About</a><br>
+      <a href="#contact">Contact</a><br>
+    </div>
+
+
+    <div ng-view></div>
+</div>
+</body>
+</html>
