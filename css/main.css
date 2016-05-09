@@ -397,13 +397,14 @@ body, .wrapper {
 /* ================================================
 Works home page styles
 =================================================*/
+.gallery-height {
+  height: 33vw; }
+
 .gallery {
-  width: 100vw;
-  height: 55vw; }
+  width: 100vw; }
   @media screen and (min-width: 700px) {
     .gallery {
-      width: 60vw;
-      height: 33vw; } }
+      width: 60vw; } }
 
 .tiny-gallery {
   max-width: 150px;
@@ -428,7 +429,7 @@ Works pages styles
   flex-flow: row;
   min-height: 65vh; }
   .works-div i {
-    margin-top: 10%;
+    margin-top: 30%;
     opacity: 0.8; }
     @media screen and (min-width: 700px) {
       .works-div i {
@@ -437,28 +438,33 @@ Works pages styles
     .works-div {
       padding-left: 30px; } }
   .works-div .works-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     max-width: 95%; }
     .works-div .works-text h1 {
       font-size: 16px;
-      width: 400px; }
+      width: 600px;
+      margin-top: 10vh; }
+      @media screen and (max-width: 700px) {
+        .works-div .works-text h1 {
+          width: 90vw; } }
   .works-div .works-image {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
+    margin-top: 10vh; }
     .works-div .works-image img {
       width: 100vw;
-      padding: 20px; }
+      padding: 0 20px 50px 20px; }
       @media screen and (min-width: 900px) {
         .works-div .works-image img {
           width: 100vh; } }
     .works-div .works-image iframe {
       margin: 20px; }
+  .works-div .works-video {
+    padding: 0 20px 0 0;
+    margin-top: 10vh; }
+    @media screen and (max-width: 700px) {
+      .works-div .works-video {
+        justify-content: flex-start; } }
   .works-div .tall-image img {
     width: 50vw;
-    max-width: 400px; }
+    max-width: 306px; }
 
 /* ================================================
 About page styles
@@ -474,7 +480,8 @@ About page styles
   -webkit-flex-flow: row;
   -ms-flex-flow: row;
   flex-flow: row;
-  min-height: 65vh; }
+  min-height: 65vh;
+  max-width: 1300px; }
   .about-div .about-text {
     max-width: 80%;
     padding-top: 10vh; }
@@ -508,6 +515,12 @@ About page styles
       -ms-flex-direction: column;
       flex-direction: column;
       width: 100vw; } }
+
+/* ================================================
+Contact page styles
+=================================================*/
+.center-page {
+  margin-top: -12vh; }
 
 /* ================================================
 Footer styles

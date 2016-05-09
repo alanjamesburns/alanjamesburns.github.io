@@ -58,13 +58,15 @@ body, .wrapper {
 /* ================================================
 Works home page styles
 =================================================*/
+.gallery-height {
+  height: 33vw;
+}
 
 .gallery {
   width: 100vw;
-  height: 55vw;
   @media screen and (min-width: $break-small) {
     width: 60vw;
-    height: 33vw;
+
   }
 }
 
@@ -93,7 +95,7 @@ Works pages styles
           flex-flow: row;
   min-height: 65vh;
   i {
-    margin-top: 10%;
+    margin-top: 30%;
     opacity: 0.8;
     @media screen and (min-width: $break-small) {
       display: none;
@@ -103,33 +105,56 @@ Works pages styles
     padding-left: 30px;
   }
   .works-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: flex-start;
     max-width: 95%;
     h1 {
       font-size: 16px;
-      width: 400px;
+      width: 600px;
+      margin-top: 10vh;
+      @media screen and (max-width: $break-small) {
+        width: 90vw;
+      }
+    }
+    p {
+      //width: 500px;
     }
   }
   .works-image {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: flex-start;
+    margin-top: 10vh;
+    @media screen and (max-width: $break-small) {
+      //margin-top:15vh;
+    }
     img {
       width: 100vw;
-      padding: 20px;
+      padding: 0 20px 50px 20px;
       @media screen and (min-width: $break-middle) {
         width: 100vh;
       }
     }
     iframe {
       margin: 20px;
+
+    }
+  }
+  .works-video {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    padding: 0 20px 0 0;
+    margin-top: 10vh;
+    @media screen and (max-width: $break-small) {
+      justify-content: flex-start;
+      //margin-top:18vh;
     }
   }
   .tall-image img {
     width: 50vw;
-    max-width: 400px;
+    max-width: 306px;
   }
 }
 
@@ -148,6 +173,7 @@ About page styles
       -ms-flex-flow: row;
           flex-flow: row;
   min-height: 65vh;
+  max-width: 1300px;
   .about-text {
     max-width: 80%;
     padding-top: 10vh;
@@ -188,6 +214,13 @@ About page styles
   }
 }
 
+/* ================================================
+Contact page styles
+=================================================*/
+
+.center-page {
+  margin-top: -12vh;
+}
 
 /* ================================================
 Footer styles
@@ -206,3 +239,9 @@ footer {
 /* ================================================
 =============== With love from Gav ================
 =================================================*/
+
+
+
+// small image (3)
+// lightbox
+// text and images starting at same place
