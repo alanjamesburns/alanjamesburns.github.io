@@ -241,31 +241,31 @@ textarea {
   color: #fff; }
 
 .gallery:hover .img1 {
-  background-image: url("../images/Rectangle1/1.jpg"); }
+  background-image: url("../images/Rec/Rec.1.6.jpg"); }
 
 .gallery:hover .img2 {
-  background-image: url("../images/Rectangle2/1.jpg"); }
+  background-image: url("../images/Rec/Rec.2.1.jpg"); }
 
 .gallery:hover .img3 {
-  background-image: url("../images/Rectangle3/1.jpg"); }
+  background-image: url("../images/Rec/Rec.3.1.jpg"); }
 
 .gallery:hover .img4 {
-  background-image: url("../images/Rectangle4/1.jpg"); }
+  background-image: url("../images/Rec/Rec.4.1.jpg"); }
 
 .gallery:hover .img5 {
-  background-image: url("../images/Rectangle5/1.jpg"); }
+  background-image: url("../images/Rec/Rec.5.1.jpg"); }
 
 .gallery:hover .img6 {
-  background-image: url("../images/Rectangle6/1.jpg"); }
+  background-image: url("../images/Rec/Rec.6.2.jpg"); }
 
 .gallery:hover .img7 {
-  background-image: url("../images/Rectangle7/1.jpg"); }
+  background-image: url("../images/Rec/Rec.7.2.jpg"); }
 
 .gallery:hover .img8 {
-  background-image: url("../images/Rectangle8/1.jpg"); }
+  background-image: url("../images/Rec/Rec.8.1.jpg"); }
 
 .gallery:hover .img9 {
-  background-image: url("../images/Rectangle9/1.jpg"); }
+  background-image: url("../images/Rec/Rec.9.1.jpg"); }
 
 /*  following just for the demo */
 .square {
@@ -307,31 +307,30 @@ textarea {
     width: 170px; }
 
   .gallery:hover .img1 {
-    background-image: url("../images/Rectangle1/1.jpg"); }
+    background-image: url("../images/Rec/Rec.1.6.jpg"); }
 
   .gallery:hover .img2 {
-    background-image: url("../images/Rectangle2/1.jpg"); }
-
+    background-image: url("../images/Rec/Rec.2.1.jpg"); }
   .gallery:hover .img3 {
-    background-image: url("../images/Rectangle3/1.jpg"); }
+    background-image: url("../images/Rec/Rec.3.1.jpg"); }
 
   .gallery:hover .img4 {
-    background-image: url("../images/Rectangle4/1.jpg"); }
+    background-image: url("../images/Rec/Rec.4.1.jpg"); }
 
   .gallery:hover .img5 {
-    background-image: url("../images/Rectangle5/1.jpg"); }
+    background-image: url("../images/Rec/Rec.5.1.jpg"); }
 
   .gallery:hover .img6 {
-    background-image: url("../images/Rectangle6/1.jpg"); }
+    background-image: url("../images/Rec/Rec.6.2.jpg"); }
 
   .gallery:hover .img7 {
-    background-image: url("../images/Rectangle7/1.jpg"); }
+    background-image: url("../images/Rec/Rec.7.2.jpg"); }
 
   .gallery:hover .img8 {
-    background-image: url("../images/Rectangle8/1.jpg"); }
+    background-image: url("../images/Rec/Rec.8.1.jpg"); }
 
   .gallery:hover .img9 {
-    background-image: url("../images/Rectangle9/1.jpg"); } }
+    background-image: url("../images/Rec/Rec.9.1.jpg"); } }
 .side-scroller {
   height: 90vh; }
 
