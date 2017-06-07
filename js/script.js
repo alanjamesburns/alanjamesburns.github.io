@@ -92,5 +92,9 @@
 // Gav's stuff
 
 $(document).ready(function(){
-  $(".works-video").fitVids();
+  $(".works-video").height($(".works-image img").height());
+});
+
+$( window ).resize(function() {
+	$(".works-video").height($(".works-image img").height());
 });
