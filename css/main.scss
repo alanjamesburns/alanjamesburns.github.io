@@ -147,7 +147,7 @@ Works pages styles
   .works-video {
     padding: 0 20px 0 10px;
     margin-top: 10vh;
-    height: 60vh;
+    height: 62vh;
     @media screen and (max-width: $break-small) {
       -webkit-box-pack: start;
           -ms-flex-pack: start;
@@ -242,7 +242,25 @@ footer {
 =================================================*/
 
 
+/* hacky additions and hacky edits.*/
+/* fix this shit later..*/
 
-/* small image (3)*/
-/* lightbox*/
-/* text and images starting at same place*/
+.works-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: auto;
+  overflow: hidden;
+  min-width: 90vw;
+  @media screen and (min-width: $break-small) {
+    min-width: 600px;
+  }
+}
+.works-video iframe,
+.works-video object,
+.works-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

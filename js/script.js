@@ -92,7 +92,5 @@
 // Gav's stuff
 
 $(document).ready(function(){
-  $(".works-video").fitVids(function(){
-		console.log("OK?");
-	});
+  $(".works-video").fitVids();
 });
