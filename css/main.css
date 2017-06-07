@@ -295,7 +295,7 @@ textarea {
   right: 10px;
   top: 10px; }
 
-@media screen and (min-width: 0px) and (max-width: 700px) {
+@media screen and (min-width: 0px) and (max-width: 600px) {
   .tiny-gallery {
     width: 170px; }
   .tiny-gallery .img1 {
@@ -323,6 +323,33 @@ textarea {
     background-color: transparent;
     background-image: url("../images/Rec/Rec.8.2.jpg"); }
   .tiny-gallery .img9 {
+    background-color: transparent;
+    background-image: url("../images/Rec/Rec.9.1.jpg"); }
+  .gallery .img1 {
+    background-color: transparent;
+    background-image: url("../images/Rectangle1/1.jpg"); }
+  .gallery .img2 {
+    background-color: transparent;
+    background-image: url("../images/Rec/Rec.2.6.jpg"); }
+  .gallery .img3 {
+    background-color: transparent;
+    background-image: url("../images/Rec/Rec.3.1.jpg"); }
+  .gallery .img4 {
+    background-color: transparent;
+    background-image: url("../images/Rec/Rec.4.1.jpg"); }
+  .gallery .img5 {
+    background-color: transparent;
+    background-image: url("../images/Rec/Rec.5.1.jpg"); }
+  .gallery .img6 {
+    background-color: transparent;
+    background-image: url("../images/Rec/Rec.6.1.jpg"); }
+  .gallery .img7 {
+    background-color: transparent;
+    background-image: url("../images/Rec/Rec.7.2.jpg"); }
+  .gallery .img8 {
+    background-color: transparent;
+    background-image: url("../images/Rec/Rec.8.2.jpg"); }
+  .gallery .img9 {
     background-color: transparent;
     background-image: url("../images/Rec/Rec.9.1.jpg"); } }
 
@@ -494,9 +521,6 @@ Works pages styles
     /* justify-content: flex-start;*/
     margin-top: 10vh;
     height: 70vh; }
-    @media screen and (max-width: 700px) {
-      .works-div .works-image {
-        /*margin-top:15vh;*/ } }
     .works-div .works-image img {
       height: 100%;
       width: auto;
@@ -507,7 +531,7 @@ Works pages styles
     .works-div .works-image iframe {
       margin: 20px; }
   .works-div .works-video {
-    padding: 0 20px 0 10px;
+    padding: 0 20px 0px 10px;
     margin-top: 10vh;
     height: 62vh; }
     @media screen and (max-width: 700px) {
@@ -594,7 +618,8 @@ footer {
   padding-bottom: 56.25%;
   height: auto;
   overflow: hidden;
-  min-width: 90vw; }
+  min-width: 90vw;
+  margin-right: 20px; }
   @media screen and (min-width: 700px) {
     .works-video {
       min-width: 600px; } }

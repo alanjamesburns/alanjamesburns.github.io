@@ -92,7 +92,7 @@ $image-9: "../images/Rec/Rec.9.1.jpg";
   right: 10px;
   top: 10px; }
 
-@media screen and (min-width: 0px) and (max-width: 700px) {
+@media screen and (min-width: 0px) and (max-width: 600px) {
   .tiny-gallery {
     width: 170px; }
 
@@ -122,7 +122,36 @@ $image-9: "../images/Rec/Rec.9.1.jpg";
       background-image: url($image-8); }
     .tiny-gallery .img9 {
       background-color: transparent;
-      background-image: url($image-9); } }
+      background-image: url($image-9); }
+
+      .gallery .img1 {
+        background-color: transparent;
+        background-image: url($image-1); }
+      .gallery .img2 {
+        background-color: transparent;
+        background-image: url($image-2); }
+      .gallery .img3 {
+        background-color: transparent;
+        background-image: url($image-3); }
+      .gallery .img4 {
+        background-color: transparent;
+        background-image: url($image-4); }
+      .gallery .img5 {
+        background-color: transparent;
+        background-image: url($image-5); }
+      .gallery .img6 {
+        background-color: transparent;
+        background-image: url($image-6); }
+      .gallery .img7 {
+        background-color: transparent;
+        background-image: url($image-7); }
+      .gallery .img8 {
+        background-color: transparent;
+        background-image: url($image-8); }
+      .gallery .img9 {
+        background-color: transparent;
+        background-image: url($image-9); }
+    }
 .side-scroller {
   height: 90vh; }
 
@@ -170,4 +199,4 @@ $image-9: "../images/Rec/Rec.9.1.jpg";
   background-image: url($image-8); }
 .tiny-gallery:hover .img9 {
   background-color: transparent;
-  background-image: url($image-9); } 
+  background-image: url($image-9); }
