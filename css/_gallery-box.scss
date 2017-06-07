@@ -92,27 +92,36 @@ $image-9: "../images/Rec/Rec.9.1.jpg";
   right: 10px;
   top: 10px; }
 
-@media screen and (min-width: 0px) and (max-width: 500px) {
+@media screen and (min-width: 0px) and (max-width: 700px) {
   .tiny-gallery {
     width: 170px; }
 
-    .gallery:hover .img1 {
+    .tiny-gallery .img1 {
+      background-color: transparent;
       background-image: url($image-1); }
-    .gallery:hover .img2 {
+    .tiny-gallery .img2 {
+      background-color: transparent;
       background-image: url($image-2); }
-    .gallery:hover .img3 {
+    .tiny-gallery .img3 {
+      background-color: transparent;
       background-image: url($image-3); }
-    .gallery:hover .img4 {
+    .tiny-gallery .img4 {
+      background-color: transparent;
       background-image: url($image-4); }
-    .gallery:hover .img5 {
+    .tiny-gallery .img5 {
+      background-color: transparent;
       background-image: url($image-5); }
-    .gallery:hover .img6 {
+    .tiny-gallery .img6 {
+      background-color: transparent;
       background-image: url($image-6); }
-    .gallery:hover .img7 {
+    .tiny-gallery .img7 {
+      background-color: transparent;
       background-image: url($image-7); }
-    .gallery:hover .img8 {
+    .tiny-gallery .img8 {
+      background-color: transparent;
       background-image: url($image-8); }
-    .gallery:hover .img9 {
+    .tiny-gallery .img9 {
+      background-color: transparent;
       background-image: url($image-9); } }
 .side-scroller {
   height: 90vh; }
@@ -133,3 +142,32 @@ $image-9: "../images/Rec/Rec.9.1.jpg";
 .form-control {
   border-radius: 0px;
 }
+
+
+.tiny-gallery:hover .img1 {
+  background-color: transparent;
+  background-image: url($image-1); }
+.tiny-gallery:hover .img2 {
+  background-color: transparent;
+  background-image: url($image-2); }
+.tiny-gallery:hover .img3 {
+  background-color: transparent;
+  background-image: url($image-3); }
+.tiny-gallery:hover .img4 {
+  background-color: transparent;
+  background-image: url($image-4); }
+.tiny-gallery:hover .img5 {
+  background-color: transparent;
+  background-image: url($image-5); }
+.tiny-gallery:hover .img6 {
+  background-color: transparent;
+  background-image: url($image-6); }
+.tiny-gallery:hover .img7 {
+  background-color: transparent;
+  background-image: url($image-7); }
+.tiny-gallery:hover .img8 {
+  background-color: transparent;
+  background-image: url($image-8); }
+.tiny-gallery:hover .img9 {
+  background-color: transparent;
+  background-image: url($image-9); } 

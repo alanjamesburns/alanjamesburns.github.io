@@ -295,26 +295,35 @@ textarea {
   right: 10px;
   top: 10px; }
 
-@media screen and (min-width: 0px) and (max-width: 500px) {
+@media screen and (min-width: 0px) and (max-width: 700px) {
   .tiny-gallery {
     width: 170px; }
-  .gallery:hover .img1 {
+  .tiny-gallery .img1 {
+    background-color: transparent;
     background-image: url("../images/Rectangle1/1.jpg"); }
-  .gallery:hover .img2 {
+  .tiny-gallery .img2 {
+    background-color: transparent;
     background-image: url("../images/Rec/Rec.2.6.jpg"); }
-  .gallery:hover .img3 {
+  .tiny-gallery .img3 {
+    background-color: transparent;
     background-image: url("../images/Rec/Rec.3.1.jpg"); }
-  .gallery:hover .img4 {
+  .tiny-gallery .img4 {
+    background-color: transparent;
     background-image: url("../images/Rec/Rec.4.1.jpg"); }
-  .gallery:hover .img5 {
+  .tiny-gallery .img5 {
+    background-color: transparent;
     background-image: url("../images/Rec/Rec.5.1.jpg"); }
-  .gallery:hover .img6 {
+  .tiny-gallery .img6 {
+    background-color: transparent;
     background-image: url("../images/Rec/Rec.6.1.jpg"); }
-  .gallery:hover .img7 {
+  .tiny-gallery .img7 {
+    background-color: transparent;
     background-image: url("../images/Rec/Rec.7.2.jpg"); }
-  .gallery:hover .img8 {
+  .tiny-gallery .img8 {
+    background-color: transparent;
     background-image: url("../images/Rec/Rec.8.2.jpg"); }
-  .gallery:hover .img9 {
+  .tiny-gallery .img9 {
+    background-color: transparent;
     background-image: url("../images/Rec/Rec.9.1.jpg"); } }
 
 .side-scroller {
@@ -336,6 +345,42 @@ textarea {
 
 .form-control {
   border-radius: 0px; }
+
+.tiny-gallery:hover .img1 {
+  background-color: transparent;
+  background-image: url("../images/Rectangle1/1.jpg"); }
+
+.tiny-gallery:hover .img2 {
+  background-color: transparent;
+  background-image: url("../images/Rec/Rec.2.6.jpg"); }
+
+.tiny-gallery:hover .img3 {
+  background-color: transparent;
+  background-image: url("../images/Rec/Rec.3.1.jpg"); }
+
+.tiny-gallery:hover .img4 {
+  background-color: transparent;
+  background-image: url("../images/Rec/Rec.4.1.jpg"); }
+
+.tiny-gallery:hover .img5 {
+  background-color: transparent;
+  background-image: url("../images/Rec/Rec.5.1.jpg"); }
+
+.tiny-gallery:hover .img6 {
+  background-color: transparent;
+  background-image: url("../images/Rec/Rec.6.1.jpg"); }
+
+.tiny-gallery:hover .img7 {
+  background-color: transparent;
+  background-image: url("../images/Rec/Rec.7.2.jpg"); }
+
+.tiny-gallery:hover .img8 {
+  background-color: transparent;
+  background-image: url("../images/Rec/Rec.8.2.jpg"); }
+
+.tiny-gallery:hover .img9 {
+  background-color: transparent;
+  background-image: url("../images/Rec/Rec.9.1.jpg"); }
 
 /*
        Custom CSS compiled from SASS
