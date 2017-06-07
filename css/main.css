@@ -148,8 +148,10 @@ textarea {
    ========================================================================== */
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */ }
+
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */ }
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
@@ -165,17 +167,13 @@ textarea {
        http://www.sanbeiji.com/archives/953 */
     box-shadow: none !important;
     text-shadow: none !important; }
-
   a,
   a:visited {
     text-decoration: underline; }
-
   a[href]:after {
     content: " (" attr(href) ")"; }
-
   abbr[title]:after {
     content: " (" attr(title) ")"; }
-
   /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
@@ -183,35 +181,30 @@ textarea {
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: ""; }
-
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
-
   /*
    * Printing Tables:
    * http://css-discuss.incutio.com/wiki/Printing_Tables
    */
   thead {
     display: table-header-group; }
-
   tr,
   img {
     page-break-inside: avoid; }
-
   img {
     max-width: 100% !important; }
-
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
-
   h2,
   h3 {
     page-break-after: avoid; } }
+
 /* 3x3 Grid Layout */
 .square {
   float: left;
@@ -241,10 +234,10 @@ textarea {
   color: #fff; }
 
 .gallery:hover .img1 {
-  background-image: url("../images/Rec/Rec.1.6.jpg"); }
+  background-image: url("../images/Rectangle1/1.jpg"); }
 
 .gallery:hover .img2 {
-  background-image: url("../images/Rec/Rec.2.1.jpg"); }
+  background-image: url("../images/Rec/Rec.2.6.jpg"); }
 
 .gallery:hover .img3 {
   background-image: url("../images/Rec/Rec.3.1.jpg"); }
@@ -256,13 +249,13 @@ textarea {
   background-image: url("../images/Rec/Rec.5.1.jpg"); }
 
 .gallery:hover .img6 {
-  background-image: url("../images/Rec/Rec.6.2.jpg"); }
+  background-image: url("../images/Rec/Rec.6.1.jpg"); }
 
 .gallery:hover .img7 {
   background-image: url("../images/Rec/Rec.7.2.jpg"); }
 
 .gallery:hover .img8 {
-  background-image: url("../images/Rec/Rec.8.1.jpg"); }
+  background-image: url("../images/Rec/Rec.8.2.jpg"); }
 
 .gallery:hover .img9 {
   background-image: url("../images/Rec/Rec.9.1.jpg"); }
@@ -305,47 +298,42 @@ textarea {
 @media screen and (min-width: 0px) and (max-width: 500px) {
   .tiny-gallery {
     width: 170px; }
-
   .gallery:hover .img1 {
-    background-image: url("../images/Rec/Rec.1.6.jpg"); }
-
+    background-image: url("../images/Rectangle1/1.jpg"); }
   .gallery:hover .img2 {
-    background-image: url("../images/Rec/Rec.2.1.jpg"); }
+    background-image: url("../images/Rec/Rec.2.6.jpg"); }
   .gallery:hover .img3 {
     background-image: url("../images/Rec/Rec.3.1.jpg"); }
-
   .gallery:hover .img4 {
     background-image: url("../images/Rec/Rec.4.1.jpg"); }
-
   .gallery:hover .img5 {
     background-image: url("../images/Rec/Rec.5.1.jpg"); }
-
   .gallery:hover .img6 {
-    background-image: url("../images/Rec/Rec.6.2.jpg"); }
-
+    background-image: url("../images/Rec/Rec.6.1.jpg"); }
   .gallery:hover .img7 {
     background-image: url("../images/Rec/Rec.7.2.jpg"); }
-
   .gallery:hover .img8 {
-    background-image: url("../images/Rec/Rec.8.1.jpg"); }
-
+    background-image: url("../images/Rec/Rec.8.2.jpg"); }
   .gallery:hover .img9 {
     background-image: url("../images/Rec/Rec.9.1.jpg"); } }
+
 .side-scroller {
   height: 90vh; }
 
 @media (min-width: 768px) {
   #tiny-gallery {
     float: right; }
-
   .tiny-gallery {
     width: 250px; } }
+
 @media (max-width: 768px) {
   .tiny-gallery {
     width: 150px; } }
+
 @media (min-width: 1000px) {
   .tiny-gallery {
     width: 350px; } }
+
 .form-control {
   border-radius: 0px; }
 
@@ -362,6 +350,7 @@ body {
 .unstyled-link a {
   color: #333;
   text-decoration: none;
+  -webkit-transition: all 0.3s;
   transition: all 0.3s; }
 
 .unstyled-link a:hover {
@@ -372,19 +361,20 @@ body, .wrapper {
   max-width: 100%;
   min-height: 100vh;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column; }
 
 .navigation {
   font-weight: lighter;
-  padding: 10px 0px 0px 10px;
-  max-width: 100vw; }
+  padding: 25px 0px 0px 25px;
+  max-width: 100vw;
+  /* .title {*/
+  /*   font-weight: bold;*/
+  /* }*/ }
 
 .ng-scope {
   -webkit-align-self: center;
@@ -406,7 +396,9 @@ Works home page styles
       width: 60vw; } }
 
 .tiny-gallery {
-  max-width: 150px;
+  max-width: 30vh;
+  top: 20px;
+  right: 20px;
   position: absolute; }
   @media screen and (max-width: 700px) {
     .tiny-gallery {
@@ -420,13 +412,14 @@ Works pages styles
   -ms-flex-item-align: center;
   align-self: center;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: row;
   -ms-flex-flow: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
   flex-flow: row;
-  min-height: 65vh; }
+  min-height: 65vh;
+  margin-left: 15px; }
   .works-div i {
     margin-top: 30%;
     opacity: 0.8; }
@@ -435,8 +428,11 @@ Works pages styles
         display: none; } }
   @media screen and (min-width: 700px) {
     .works-div {
-      padding-left: 30px; } }
+      /*padding-left: 30px;*/ } }
   .works-div .works-text {
+    /* display: flex;*/
+    /* flex-direction: column;*/
+    /* justify-content: flex-start;*/
     max-width: 95%; }
     .works-div .works-text h1 {
       font-size: 16px;
@@ -445,25 +441,38 @@ Works pages styles
       @media screen and (max-width: 700px) {
         .works-div .works-text h1 {
           width: 90vw; } }
+    .works-div .works-text p {
+      /*width: 500px;*/ }
   .works-div .works-image {
-    margin-top: 10vh; }
+    /* display: flex;*/
+    /* flex-direction: column;*/
+    /* justify-content: flex-start;*/
+    margin-top: 10vh;
+    height: 70vh; }
+    @media screen and (max-width: 700px) {
+      .works-div .works-image {
+        /*margin-top:15vh;*/ } }
     .works-div .works-image img {
-      width: 100vw;
+      height: 100%;
+      width: auto;
       padding: 0 20px 50px 20px; }
       @media screen and (min-width: 900px) {
         .works-div .works-image img {
-          width: 100vh; } }
+          /*width: 100vh;*/ } }
     .works-div .works-image iframe {
       margin: 20px; }
   .works-div .works-video {
-    padding: 0 20px 0 0;
-    margin-top: 10vh; }
+    padding: 0 20px 0 10px;
+    margin-top: 10vh;
+    height: 60vh; }
     @media screen and (max-width: 700px) {
       .works-div .works-video {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
         justify-content: flex-start; } }
   .works-div .tall-image img {
-    width: 50vw;
-    max-width: 306px; }
+    height: 100%;
+    width: auto; }
 
 /* ================================================
 About page styles
@@ -473,11 +482,11 @@ About page styles
   -ms-flex-item-align: center;
   align-self: center;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: row;
   -ms-flex-flow: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
   flex-flow: row;
   min-height: 65vh;
   max-width: 1300px; }
@@ -500,7 +509,6 @@ About page styles
 .about {
   padding: 70px 0px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 80vw; }
@@ -510,7 +518,6 @@ About page styles
     .about {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
-      -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column;
       width: 100vw; } }
@@ -535,5 +542,6 @@ footer {
 /* ================================================
 =============== With love from Gav ================
 =================================================*/
-
-/*# sourceMappingURL=main.css.map */
+/* small image (3)*/
+/* lightbox*/
+/* text and images starting at same place*/

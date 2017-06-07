@@ -1,7 +1,7 @@
 	// create the module and name it alanSiteApp
 	var alanSiteApp = angular.module('alanSiteApp', ['ngRoute']);
 
-	// configure our routes
+	// configure routes
 	alanSiteApp.config(function($routeProvider) {
 		$routeProvider
 
@@ -87,3 +87,12 @@
 
 	alanSiteApp.controller('contactController', function($scope) {
 	});
+
+
+// Gav's stuff
+
+$(document).ready(function(){
+  $(".works-video").fitVids(function(){
+		console.log("OK?");
+	});
+});
