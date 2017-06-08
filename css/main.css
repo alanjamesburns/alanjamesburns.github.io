@@ -234,31 +234,31 @@ textarea {
   color: #fff; }
 
 .gallery:hover .img1 {
-  background-image: url("../images/Rectangle1/1.jpg"); }
+  background-image: url("../images/thumbs/1.jpg"); }
 
 .gallery:hover .img2 {
-  background-image: url("../images/Rec/Rec.2.6.jpg"); }
+  background-image: url("../images/thumbs/2.jpg"); }
 
 .gallery:hover .img3 {
-  background-image: url("../images/Rec/Rec.3.1.jpg"); }
+  background-image: url("../images/thumbs/3.jpg"); }
 
 .gallery:hover .img4 {
-  background-image: url("../images/Rec/Rec.4.1.jpg"); }
+  background-image: url("../images/thumbs/4.jpg"); }
 
 .gallery:hover .img5 {
-  background-image: url("../images/Rec/Rec.5.1.jpg"); }
+  background-image: url("../images/thumbs/5.jpg"); }
 
 .gallery:hover .img6 {
-  background-image: url("../images/Rec/Rec.6.1.jpg"); }
+  background-image: url("../images/thumbs/6.jpg"); }
 
 .gallery:hover .img7 {
-  background-image: url("../images/Rec/Rec.7.2.jpg"); }
+  background-image: url("../images/thumbs/7.jpg"); }
 
 .gallery:hover .img8 {
-  background-image: url("../images/Rec/Rec.8.2.jpg"); }
+  background-image: url("../images/thumbs/8.jpg"); }
 
 .gallery:hover .img9 {
-  background-image: url("../images/Rec/Rec.9.1.jpg"); }
+  background-image: url("../images/thumbs/9.jpg"); }
 
 /*  following just for the demo */
 .square {
@@ -300,58 +300,58 @@ textarea {
     width: 170px; }
   .tiny-gallery .img1 {
     background-color: transparent;
-    background-image: url("../images/Rectangle1/1.jpg"); }
+    background-image: url("../images/thumbs/1.jpg"); }
   .tiny-gallery .img2 {
     background-color: transparent;
-    background-image: url("../images/Rec/Rec.2.6.jpg"); }
+    background-image: url("../images/thumbs/2.jpg"); }
   .tiny-gallery .img3 {
     background-color: transparent;
-    background-image: url("../images/Rec/Rec.3.1.jpg"); }
+    background-image: url("../images/thumbs/3.jpg"); }
   .tiny-gallery .img4 {
     background-color: transparent;
-    background-image: url("../images/Rec/Rec.4.1.jpg"); }
+    background-image: url("../images/thumbs/4.jpg"); }
   .tiny-gallery .img5 {
     background-color: transparent;
-    background-image: url("../images/Rec/Rec.5.1.jpg"); }
+    background-image: url("../images/thumbs/5.jpg"); }
   .tiny-gallery .img6 {
     background-color: transparent;
-    background-image: url("../images/Rec/Rec.6.1.jpg"); }
+    background-image: url("../images/thumbs/6.jpg"); }
   .tiny-gallery .img7 {
     background-color: transparent;
-    background-image: url("../images/Rec/Rec.7.2.jpg"); }
+    background-image: url("../images/thumbs/7.jpg"); }
   .tiny-gallery .img8 {
     background-color: transparent;
-    background-image: url("../images/Rec/Rec.8.2.jpg"); }
+    background-image: url("../images/thumbs/8.jpg"); }
   .tiny-gallery .img9 {
     background-color: transparent;
-    background-image: url("../images/Rec/Rec.9.1.jpg"); }
+    background-image: url("../images/thumbs/9.jpg"); }
   .gallery .img1 {
     background-color: transparent;
-    background-image: url("../images/Rectangle1/1.jpg"); }
+    background-image: url("../images/thumbs/1.jpg"); }
   .gallery .img2 {
     background-color: transparent;
-    background-image: url("../images/Rec/Rec.2.6.jpg"); }
+    background-image: url("../images/thumbs/2.jpg"); }
   .gallery .img3 {
     background-color: transparent;
-    background-image: url("../images/Rec/Rec.3.1.jpg"); }
+    background-image: url("../images/thumbs/3.jpg"); }
   .gallery .img4 {
     background-color: transparent;
-    background-image: url("../images/Rec/Rec.4.1.jpg"); }
+    background-image: url("../images/thumbs/4.jpg"); }
   .gallery .img5 {
     background-color: transparent;
-    background-image: url("../images/Rec/Rec.5.1.jpg"); }
+    background-image: url("../images/thumbs/5.jpg"); }
   .gallery .img6 {
     background-color: transparent;
-    background-image: url("../images/Rec/Rec.6.1.jpg"); }
+    background-image: url("../images/thumbs/6.jpg"); }
   .gallery .img7 {
     background-color: transparent;
-    background-image: url("../images/Rec/Rec.7.2.jpg"); }
+    background-image: url("../images/thumbs/7.jpg"); }
   .gallery .img8 {
     background-color: transparent;
-    background-image: url("../images/Rec/Rec.8.2.jpg"); }
+    background-image: url("../images/thumbs/8.jpg"); }
   .gallery .img9 {
     background-color: transparent;
-    background-image: url("../images/Rec/Rec.9.1.jpg"); } }
+    background-image: url("../images/thumbs/9.jpg"); } }
 
 .side-scroller {
   height: 90vh; }
@@ -375,39 +375,39 @@ textarea {
 
 .tiny-gallery:hover .img1 {
   background-color: transparent;
-  background-image: url("../images/Rectangle1/1.jpg"); }
+  background-image: url("../images/thumbs/1.jpg"); }
 
 .tiny-gallery:hover .img2 {
   background-color: transparent;
-  background-image: url("../images/Rec/Rec.2.6.jpg"); }
+  background-image: url("../images/thumbs/2.jpg"); }
 
 .tiny-gallery:hover .img3 {
   background-color: transparent;
-  background-image: url("../images/Rec/Rec.3.1.jpg"); }
+  background-image: url("../images/thumbs/3.jpg"); }
 
 .tiny-gallery:hover .img4 {
   background-color: transparent;
-  background-image: url("../images/Rec/Rec.4.1.jpg"); }
+  background-image: url("../images/thumbs/4.jpg"); }
 
 .tiny-gallery:hover .img5 {
   background-color: transparent;
-  background-image: url("../images/Rec/Rec.5.1.jpg"); }
+  background-image: url("../images/thumbs/5.jpg"); }
 
 .tiny-gallery:hover .img6 {
   background-color: transparent;
-  background-image: url("../images/Rec/Rec.6.1.jpg"); }
+  background-image: url("../images/thumbs/6.jpg"); }
 
 .tiny-gallery:hover .img7 {
   background-color: transparent;
-  background-image: url("../images/Rec/Rec.7.2.jpg"); }
+  background-image: url("../images/thumbs/7.jpg"); }
 
 .tiny-gallery:hover .img8 {
   background-color: transparent;
-  background-image: url("../images/Rec/Rec.8.2.jpg"); }
+  background-image: url("../images/thumbs/8.jpg"); }
 
 .tiny-gallery:hover .img9 {
   background-color: transparent;
-  background-image: url("../images/Rec/Rec.9.1.jpg"); }
+  background-image: url("../images/thumbs/9.jpg"); }
 
 /*
        Custom CSS compiled from SASS
